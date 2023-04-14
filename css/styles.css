@@ -97,8 +97,8 @@ gap: 24px;}
 
 .job-name {padding-top: 32px;
 padding-bottom: 32px;
-padding-left: 16px;
-padding-right: 16px;
+padding-left: 0px;
+padding-right: 0px;
 border-radius: 0px 0px 4px 4px;}
 
 .team-name {text-align: center;
@@ -267,9 +267,28 @@ border-radius: 0px 0px 4px 4px;}
 .team-job {color:var(--second-color);
       font-size: 16px;
       line-height: 1.5;
-      letter-spacing: 0.02em;}
+      letter-spacing: 0.02em;
+      margin-bottom: 8px;}
 
+.icon-list {display: flex;
+justify-content: center;
+gap: 24px;}
 
+.icon-item {width: 40px;
+height: 40px;}
+
+.icon-socials {width: 100%;
+height: 100%;
+background-color: var(--third-color);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.icon-socials:hover,
+.icon-socials:focus {background-color: var(--forth-color);}
+
+.icon-pic {fill: var(--sixth-color);}
 /* End of Section 3(Index) */
 
 /* Page 2 Portfolio */
