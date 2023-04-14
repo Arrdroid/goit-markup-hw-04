@@ -5,6 +5,7 @@
        --fifth-color:#FFFFFF;
        --sixth-color:#F4F4FD;
        --seventh-color: #e7e9fc;
+       --eighth-color:#afb1b8;
       }
 
 body {background-color:var(--fifth-color);
@@ -290,6 +291,40 @@ justify-content: center;}
 
 .icon-pic {fill: var(--sixth-color);}
 /* End of Section 3(Index) */
+
+/* Section 5 (Index) */
+.customers {padding-top: 120px;
+padding-bottom: 120px;}
+
+.customers-title {font-size: 36px;
+line-height: 1.1;
+color: var(--first-color);
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 72px;}
+
+.customers-list {display: flex;
+gap: 24px;}
+
+.customers-item {width: calc((100%-120px)/6);
+height: 88px;}
+
+.customers-link {width: 100%;
+height: 100%;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--eighth-color);}
+
+.customers-link:hover,
+.customers-link:focus {border-color: var(--forth-color);
+color: var(--forth-color);}
+
+.customers-pic {fill: currentColor;}
+/* End of Section 5 Index */
 
 /* Page 2 Portfolio */
 .sort-btn
