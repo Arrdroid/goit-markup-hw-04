@@ -6,6 +6,7 @@
        --sixth-color:#F4F4FD;
        --seventh-color: #e7e9fc;
        --eighth-color:#afb1b8;
+       --nineth-color:#31d0aa;
       }
 
 body {background-color:var(--fifth-color);
@@ -362,6 +363,11 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 
 /* Footer */
 .footer {background-color:  var(--first-color);}
+
+.footer-div {display: flex;
+align-items: baseline;
+gap: 120px;}
+
 .footer-logo {color:var(--third-color);
       font-family: Raleway, sans-serif;
       font-weight: 800;
@@ -374,6 +380,33 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;}
+
+.footer-text-icon {font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--fifth-color);
+margin-bottom: 16px;}
+
+.footer-icon-list {display: flex;
+gap: 16px;}
+
+.footer-item {width: 40px;
+height: 40px;}
+
+.footer-link {width: 100%;
+height: 100%;
+background-color: var(--third-color);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.footer-link:hover,
+.footer-link:focus {background-color: var(--nineth-color);}
+
+.footer-icon-pic {fill: var(--sixth-color);}
+
 
 .visually-hidden {position: absolute;
       width: 1px;
